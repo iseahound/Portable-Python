@@ -8,7 +8,7 @@ Make sure you download the embedded zip from:
 
     https://www.python.org/downloads/windows/
 
-* Drop the Fix Python.ahk script into the extracted zip.
+* Drop the Fix Python.ahk script (or Fix Python.exe) into the **extracted** zip directory.
 * Double check there is a python.exe in the folder.
 * Double click the Fix Python.ahk script.
 
@@ -27,3 +27,7 @@ You can also suppress the pip warnings
     if /I "%1"=="install" ("%~dp0python\scripts\pip.exe" %* --no-warn-script-location) else ("%~dp0python\scripts\pip.exe" %*)
 
 Both scripts assume your main folder is called "python" and are dropped in the same directory as the folder called python.
+
+You can change the path by adding something between `%~dp0` and `python` such as:
+
+    "%~dp0Documents\python\python.exe" %*
