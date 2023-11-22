@@ -41,4 +41,4 @@ FileAppend("
 if FileExist("python.exe")
    try FileDelete(A_ScriptFullPath)
    catch
-      MsgBox("Can't self-delte, so delete me manually once everything is done")
+      MsgBox("Can't self-delete, so delete me manually once everything is done")
