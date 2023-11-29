@@ -4,7 +4,7 @@ This shows how you can create a portable installation of Python from the officia
 
 # Steps
 
-Make sure you download the embedded zip from:
+Make sure you download the **Windows embeddable package (64-bit)** from:
 
     https://www.python.org/downloads/windows/
 
