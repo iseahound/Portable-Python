@@ -35,3 +35,7 @@ Both scripts assume your main folder is called "python" and are dropped in the s
 You can change the path by adding something between `%~dp0` and `python` such as:
 
     "%~dp0Documents\python\python.exe" %*
+
+which translates to:
+
+    .\Documents\python\python.exe
