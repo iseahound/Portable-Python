@@ -1,6 +1,6 @@
 # Portable-Python
 
-This shows how you can create a portable installation of Python from the official python.org website. The following script merely automates the steps you need to do to get a working embedded version up and running.
+This shows how you can create a portable installation of Python from the official python.org website. The following script merely automates the steps you need to do to get a working embedded version up and running. Functionality is 100% the same as regular python.
 
 # Steps
 
