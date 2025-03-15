@@ -33,7 +33,7 @@ if FileExist("pip.cmd")
 FileAppend("
 (
 @echo off
-.\Scripts\pip.exe %*
+%~dp0Scripts\pip.exe %*
 )", "pip.cmd", "`n")
 
 
